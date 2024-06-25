@@ -1,0 +1,113 @@
+/* Styling for the SubscriptionForm component */
+.subscription-form {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscription-form h1 {
+	text-align: center;
+	color: #333;
+  }
+  
+  .subscription-form h3 {
+	margin: 10px 0;
+	color: #333;
+  }
+  
+  .subscription-form label {
+	font-weight: bold;
+	color: #555;
+  }
+  
+  .subscription-form input[type="radio"] {
+	margin-right: 8px;
+  }
+  
+  /* Updated styles for the "Subscribe" button */
+  .subscribe-btn {
+	background-color: #220164;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 18px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	width: 100%;
+	margin-top: 20px;
+  }
+  
+  .subscribe-btn:hover {
+	background-color: #0056b3;
+  }
+  
+  /* Styling for the Question Form */
+  .question-form {
+	margin-top: 30px;
+  }
+  
+  .question-form h2 {
+	color: #333;
+	text-align: center;
+	margin-bottom: 15px;
+  }
+  
+  .question-form form textarea {
+	width: 100%;
+	resize: vertical;
+	padding: 10px;
+	font-size: 16px;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+  }
+  
+  .question-form form button {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #28a745;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .question-form form button:hover {
+	background-color: #218838;
+  }
+  
+  .submitted-question {
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #ffc107;
+	color: #333;
+	border-radius: 4px;
+  }
+  
+  .submitted-question h3 {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
+  }
+
+  .log-container {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+  }
+  
+  .log-container h2 {
+	margin-bottom: 10px;
+  }
+  
+  .log-container p {
+	margin: 5px 0;
+  }
